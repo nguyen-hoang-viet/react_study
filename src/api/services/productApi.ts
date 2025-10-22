@@ -6,8 +6,7 @@ const fakeDatabase: Product[] = [
     { id: 'p2', name: 'Samsung Galaxy', price: 28000000},
 ];
 
-
-// Hàm này giả vờ gọi API để lấy danh sách sản phẩm.
+// Hàm này giả lập gọi API để lấy danh sách sản phẩm.
 // Nó trả về một Promise, mất 1 giây để hoàn thành.
 export const fetchProducts = (): Promise<Product[]> => {
     console.log('API: Bắt đầu gọi lấy sản phẩm...');

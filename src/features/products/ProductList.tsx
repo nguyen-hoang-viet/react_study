@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from 'react';
 
-// 1. Import Types
+// Import Types
 import { Product } from '../../types/product';
 
-// 2. Import API
+// Import API
 import { fetchProducts } from '../../api/services/productApi';
 
-// 3. Import Utils
+// Import Utils
 import { formatCurrency } from '../../utils/currency';
 
-// 4. Import Constants
+// Import Constants
 import { MESSAGES } from '../../constants/messages';
 
-// 5. Import Components
+// Import Components
 import { Button } from '../../components/Button/Button';
 
-// 6. Import Store (Hook)
+// Import Store (Hook)
 import { useTheme } from '../../store/ThemeContext';
 
 export const ProductList: React.FC = () => {
